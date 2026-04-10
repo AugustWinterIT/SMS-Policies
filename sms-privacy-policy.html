@@ -7,7 +7,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet"/>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     :root {
       --red: #cc2229;
       --teal: #2a8a94;
@@ -17,99 +16,19 @@
       --muted: #6b6b6b;
       --rule: #ddd8cc;
     }
-
-    body {
-      font-family: 'Source Sans 3', sans-serif;
-      background: var(--cream);
-      color: var(--text);
-      line-height: 1.7;
-      font-weight: 300;
-    }
-
-    header {
-      background: #fff;
-      padding: 1.5rem 2rem 0;
-      text-align: center;
-      border-bottom: 4px solid var(--red);
-    }
-
-    header img {
-      max-width: 420px;
-      width: 90%;
-      height: auto;
-      display: block;
-      margin: 0 auto 1.25rem;
-    }
-
-    .page-title-bar {
-      background: var(--dark);
-      padding: 1rem 2rem;
-      text-align: center;
-    }
-
-    .page-title-bar h1 {
-      font-family: 'Libre Baskerville', serif;
-      font-size: 1.3rem;
-      font-weight: 700;
-      color: #fff;
-      letter-spacing: 0.02em;
-    }
-
-    .page-title-bar .subtitle {
-      font-size: 0.78rem;
-      color: #aaa;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      margin-top: 0.3rem;
-    }
-
-    main {
-      max-width: 760px;
-      margin: 3rem auto;
-      padding: 0 2rem 4rem;
-    }
-
-    .intro {
-      font-size: 1.05rem;
-      color: var(--muted);
-      border-left: 3px solid var(--red);
-      padding-left: 1.25rem;
-      margin-bottom: 2.5rem;
-      font-style: italic;
-    }
-
-    section {
-      margin-bottom: 2.25rem;
-      padding-bottom: 2.25rem;
-      border-bottom: 1px solid var(--rule);
-    }
-
+    body { font-family: 'Source Sans 3', sans-serif; background: var(--cream); color: var(--text); line-height: 1.7; font-weight: 300; }
+    header { background: #fff; padding: 1.5rem 2rem 0; text-align: center; border-bottom: 4px solid var(--red); }
+    header img { max-width: 420px; width: 90%; height: auto; display: block; margin: 0 auto 1.25rem; }
+    .page-title-bar { background: var(--dark); padding: 1rem 2rem; text-align: center; }
+    .page-title-bar h1 { font-family: 'Libre Baskerville', serif; font-size: 1.3rem; font-weight: 700; color: #fff; letter-spacing: 0.02em; }
+    .page-title-bar .subtitle { font-size: 0.78rem; color: #aaa; letter-spacing: 0.1em; text-transform: uppercase; margin-top: 0.3rem; }
+    main { max-width: 760px; margin: 3rem auto; padding: 0 2rem 4rem; }
+    .intro { font-size: 1.05rem; color: var(--muted); border-left: 3px solid var(--red); padding-left: 1.25rem; margin-bottom: 2.5rem; font-style: italic; }
+    section { margin-bottom: 2.25rem; padding-bottom: 2.25rem; border-bottom: 1px solid var(--rule); }
     section:last-child { border-bottom: none; }
-
-    section h2 {
-      font-family: 'Libre Baskerville', serif;
-      font-size: 0.7rem;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--teal);
-      margin-bottom: 0.6rem;
-    }
-
-    section p {
-      font-size: 1rem;
-      color: var(--text);
-      line-height: 1.75;
-    }
-
-    a { color: var(--red); text-decoration: underline; text-underline-offset: 3px; }
-
-    footer {
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.8rem;
-      color: var(--muted);
-      border-top: 1px solid var(--rule);
-    }
+    section h2 { font-family: 'Libre Baskerville', serif; font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--teal); margin-bottom: 0.6rem; }
+    section p { font-size: 1rem; color: var(--text); line-height: 1.75; }
+    footer { text-align: center; padding: 2rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--rule); }
   </style>
 </head>
 <body>
@@ -140,7 +59,12 @@
 
   <section>
     <h2>How Consent Is Obtained</h2>
-    <p>New employees provide their mobile phone number to the HR department during the onboarding process and are informed that their number will be used to receive internal SMS notifications for business operations purposes. Existing employees will be notified/reminded via email and the company newsletter about the company's intention to communicate via text at times and also explain their option to opt out.</p>
+    <p>Employees provide their mobile phone number to the HR department during the onboarding process and are informed that it may be used to send internal SMS notifications for business operations purposes. Existing employees are notified of this program and their opt-out options through company email and the company newsletter. Employees may opt out at any time by replying STOP to any message or by contacting IT at it@augustwinter.com.</p>
+  </section>
+
+  <section>
+    <h2>Data Storage</h2>
+    <p>Employee mobile phone numbers are stored in a secured spreadsheet hosted on the company's Dropbox Business account, accessible only to authorized personnel. This data is accessed by the company's internal visitor management application for the purpose of delivering SMS notifications. Access to both the Dropbox account and the application is restricted to authorized staff only.</p>
   </section>
 
   <section>
@@ -150,9 +74,23 @@
 
   <section>
     <h2>Opt-Out</h2>
-    <p>Employees may opt out of SMS notifications at any time by replying <strong>STOP</strong> to any message. To opt back in or update contact information, reach out to IT at <a href="/cdn-cgi/l/email-protection#573e2317362230222423203e392332257934383a"><span class="__cf_email__" data-cfemail="d8b1ac98b9adbfadabacafb1b6acbdaaf6bbb7b5">[email&#160;protected]</span></a>.</p>
+    <p>Employees may opt out of SMS notifications at any time by replying <strong>STOP</strong> to any message. To opt back in or update contact information, contact the IT department at it@augustwinter.com.</p>
   </section>
 
   <section>
     <h2>Contact</h2>
-    <p>For privacy-related questions or concerns regarding this program, contact the IT department at <a href="/cdn-cgi/l/email-protection#f19885b190849684828586989f859483df929e9c"><span class="__cf_email__" data-cfemail="d3baa793b2a6b4a6a0a7a4babda7b6a1fdb0bcbe">[email&#160;protected]</span></a>.</p>
+    <p>For privacy-related questions or concerns regarding this program, contact the IT department at it@augustwinter.com.</p>
+  </section>
+
+  <section>
+    <h2>Related Documents</h2>
+    <p>See also: <a href="sms-terms.html">SMS Notification Terms and Conditions</a></p>
+  </section>
+</main>
+
+<footer>
+  &copy; August Winter &amp; Sons, Inc. &mdash; Internal Use Only
+</footer>
+
+</body>
+</html>
